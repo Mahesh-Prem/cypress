@@ -33,7 +33,7 @@ This repo contains various recipes for testing common scenarios using Cypress.
 # Installation
 
 ```bash
-## install all dependencies
+## install all dependencies from the root directory
 npm install
 
 ## boot the various node servers
