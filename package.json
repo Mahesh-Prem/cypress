@@ -5,7 +5,9 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "cypress:a": "node runner.js",
     "cypress:info": "cypress info",
+    "cypress:opo": "cypress run",
     "cypress:verify": "cypress verify",
     "cypress:version": "cypress version",
     "lint": "eslint examples",
@@ -43,6 +45,7 @@
     "cors": "2.8.5",
     "cross-env": "5.2.0",
     "csurf": "1.9.0",
+    "cypress-mochawesome-reporter": "^3.6.1",
     "debug": "3.1.0",
     "dragula": "3.7.2",
     "enzyme": "3.3.0",
@@ -160,7 +163,7 @@
     "x2js": "3.4.1"
   },
   "engines": {
-    "node": "^18.16.0"
+    "node": "^16"
   },
   "license": "MIT",
   "repository": {
